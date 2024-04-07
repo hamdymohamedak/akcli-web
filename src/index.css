@@ -21,6 +21,21 @@ html{
   box-sizing: border-box;
   transition: 0.2s;
   color: white;
-  
+}
 
+@media (max-width: 480px) {
+  html {
+    font-size:10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width:768px) {
+  html {
+    font-size:13px;
+  }
+}
+@media (min-width: 1300px) {
+  html {
+    font-size:18px;
+  }
 }
