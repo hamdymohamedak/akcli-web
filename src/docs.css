@@ -26,27 +26,22 @@
   filter: invert(0);
   text-transform: capitalize;
 }
-.repo:hover {
-  cursor: pointer;
-}
-.btn {
-  height: 3rem;
-  width: 13rem;
-  color: black;
-  font-weight: bold;
-  font-size: 1.1rem;
-  border-radius: 10px;
-  border: none;
-  box-shadow: 2px 1px 41px -8px white;
-  &:hover {
-    scale: 1.1;
-    cursor: pointer;
-  }
-}
-#btn {
-  background: white;
+.parent {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 2rem;
+  gap: 1rem;
+}
+.docs_img {
+  height: 21rem;
+  width: 34rem;
+  object-fit: contain;
+
+}
+.dis_txt {
+  width: 34rem;
   font-size: 1.1rem;
 }
