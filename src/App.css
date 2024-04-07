@@ -25,6 +25,7 @@
   font-size: 2rem;
   filter: invert(0);
   text-transform: capitalize;
+  text-align:center;
 }
 .repo:hover {
   cursor: pointer;
